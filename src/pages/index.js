@@ -4,11 +4,16 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const IndexPage = () => {
   return (
+    document.body.style.backgroundColor= "White",
     <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+      <p>Welcome to my website</p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="../images/urgot.jpg"
+        alt="Evanka and Yarema Apple Picking"
+        src="../images/evanka&i.jpg"
+      />
+      <StaticImage
+      alt="Yarem and nephew Hunter"
+      src="../images/hunter&me.jpg"
       />
     </Layout>
   )
